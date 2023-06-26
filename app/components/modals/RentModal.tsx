@@ -193,7 +193,7 @@ export default function RentModal() {
         />
         <hr />
         <Counter
-          title="Guests"
+          title="Bathrooms"
           subtitle="How many bathroom do you have?"
           value={bathroomCount}
           onChange={(value) => setCustomValue("bathroomCount", value)}
